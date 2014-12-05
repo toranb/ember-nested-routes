@@ -3,7 +3,7 @@
 {{#each account in controller}}
 <tr>
   <td class="account">{{account.name}}</td>
-  <td>{{#link-to 'detail' account.id class='detail-link'}}details{{/link-to}}</td>
+  <td>{{#link-to 'accounts.detail' account.id class='detail-link'}}details{{/link-to}}</td>
 </tr>
 {{/each}}
 </table>

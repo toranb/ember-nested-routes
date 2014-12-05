@@ -1,4 +1,4 @@
-var UsersRoute = Ember.Route.extend({
+var AccountsDetailUsersRoute = Ember.Route.extend({
     model: function() {
         var users = [];
         users.push({username: 'toran'});
@@ -8,4 +8,4 @@ var UsersRoute = Ember.Route.extend({
     }
 });
 
-export default UsersRoute;
+export default AccountsDetailUsersRoute;
