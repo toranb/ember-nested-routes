@@ -1,29 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ember.js + grunt</title>
+<title>ember.js route example</title>
 </head>
 <body>
 <script src="js/dist/deps.min.js"></script>
-<script src="js/vendor/fauxjax/dist/fauxjax.min.js"></script>
-<script>
-  var people = [{id: 1, firstName: "grunt", lastName: "cli"}, {id: 2, firstName: "ember", lastName: "js"}];
-  var actions = [{id: 6, person_id: 2, opened: "never"}, {id: 9, person_id: 1, opened: "first"}, {id: 8, person_id: 2, opened: "last"}];
-
-  $.fauxjax.new({
-    url: '/api/people',
-    dataType: 'json',
-    responseText: people
-  });
-
-  $.fauxjax.new({
-    url: '/api/actions',
-    dataType: 'json',
-    responseText: actions
-  });
-
-  $.fauxjax.settings.responseTime = 0;
-</script>
 <script>window.App = require('js/app')["default"].create();</script>
 </body>
 </html>
