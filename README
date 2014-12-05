@@ -1,0 +1,17 @@
+A simple ember.js app showing the diff between resource and route
+
+
+To run the ember.js app locally
+
+    npm install
+    gulp
+
+    python -m SimpleHTTPServer 3000
+
+    visit http://localhost:3000 to see the running app
+
+
+To run the javascript tests
+
+    npm install
+    gulp test

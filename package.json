@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+        "bower": "*",
+        "gulp": "*",
+        "gulp-concat": "*",
+        "gulp-ember-handlebarz": "1.7.4",
+        "gulp-es6-module-transpiler": "*",
+        "gulp-filter": "*",
+        "gulp-rimraf": "*"
+  },
+  "devDependencies": {
+        "gulp-karma": "*",
+        "karma": "0.10",
+        "karma-phantomjs-launcher": "*",
+        "karma-qunit": "*",
+        "karma-qunit-special-blend": "*"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
